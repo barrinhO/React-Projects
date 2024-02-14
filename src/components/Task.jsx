@@ -14,7 +14,7 @@ const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
   return (
     <div
       className="task-container"
-      style={task.completed ? { borderLeft: "6px solid chartreuse" } : {}}
+      style={task.completed ? { borderLeft: "6px solid rgb(0, 255, 255)" } : {}}
     >
       <div className="task-title" onClick={() => handleTaskClick(task.id)}>
         {task.title}
